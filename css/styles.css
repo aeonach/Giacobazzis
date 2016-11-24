@@ -1,0 +1,214 @@
+html {
+  position: relative;
+  min-height: 100%;
+  height: 100%;
+}
+
+body  {
+
+margin-left: auto;
+margin-right:Auto;
+ /* Margin bottom by footer height */
+  margin-bottom: 80px;
+/*font-family: 'Lato', sans-serif; */
+/*font-family: 'Droid Sans', sans-serif;*/
+font-family: 'Noto Sans', sans-serif;
+/*font-family: 'Hind', sans-serif;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Asap', sans-serif;
+font-family: 'Fira Sans', sans-serif; */
+font-size: 16px;
+
+}
+.mainContent {
+padding-bottom: 80px;
+padding-left: 0px;
+padding-right: 0px;
+
+}
+.navbar-brand img {
+margin-top:-15px;
+margin-left:-15px;
+max-height: 50px;
+}
+
+.navbar-default .navbar-nav>li>a {
+
+color:#aa1f23;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+
+color:#aa6116;
+
+}
+
+#myCarousel {
+
+    box-shadow: 3px 3px 5px #888888;
+
+
+}
+
+img {
+
+    box-shadow: 2px 2px 5px #dadada;
+}
+/* Remove shadow from the medium brand image */
+.noShadow {
+box-shadow: none;
+max-height: 50px;
+margin-top: -15px;
+}
+
+.navbar-default .navbar-text {
+  color: #901f23;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #901f23;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #cf2727;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #aa6116;
+  background-color: #e7e7e7;
+}
+
+.logoPlus {
+background-color: white;
+}
+
+.masthead {
+height: 120px;
+padding:10px;
+text-align: center;
+}
+
+#nav.affix {
+    position: fixed;
+    top: 0;
+    width: inherit;
+    z-index:10;
+}
+#sidebar.affix-top {
+    position: static;
+}
+
+#sidebar.affix {
+    position: fixed;
+    top: 80px;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+  
+  .addressBox, 
+  .openTimes, 
+  .marieCurie, 
+  .middle div, 
+  .rhand div 	{
+  text-align: center;
+  padding-top: 20px;
+  margin: auto;
+  font-size: 16px;
+  }
+  .content, .middle, .rhand  {
+  margin: auto;
+  }
+  .logoPlus{
+  max-height: 100px;
+  margin: auto;
+  }
+
+.middle div:first-child, .rhand div:first-child  {
+  padding-top: 25px;
+  }
+  /* Small square for dividing content*/
+  .GDSquare {
+  height:10px;
+  width:10px;
+  }
+  /* Small square dividing content*/
+  .GDDivider {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  }
+  
+  #marie {
+  display: flex;
+  justify-content: center;
+  }
+  /* Sort line dividing content */
+  .short {
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  width: 25%;
+  border-color:#aa1f23;
+  }
+  
+  .directions {
+  margin: auto;
+  padding-top: 20px;
+  text-align: center;
+  }
+  .row2 {
+  margin-top:50px;
+  }
+  
+  .footer {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+ 
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.scriptFont {
+font-family: 'Gloria Hallelujah', sans-serif;
+text-align: center;
+}
+
+@media and (max-width: 767px){ 
+.logo-1{
+	display: block;
+}
+#nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+}
+}
+@media and (min-width: 767px) and (max-width: 100%){ 
+.logo-2{
+	display:block;
+}
+}
+@media only screen and (max-width: 767px){
+	.masthead {
+		display:none;
+	}
+}
+
