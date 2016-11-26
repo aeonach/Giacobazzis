@@ -1,0 +1,46 @@
+ .deliNavCaption {
+    text-align: center;
+    margin-top: 5px;
+    }
+    
+    .deliNav {
+    width: 250px;
+    background-color: #f8f8f8;
+    border: 1px solid #e7e7e7;
+    padding-top: 15px;
+    margin: 5px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #dadada;
+    }
+    
+    .deliNav img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+    }
+    
+    .navText {
+    color: #aa1f23;
+    }
+    a .deliNav:hover {
+    text-decoration: none;
+    border: 2px solid #e7e7e7;
+    box-shadow: none;
+    
+    }
+   /* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.deliImg {
+box-shadow: none;
+}
